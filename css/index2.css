@@ -1,5 +1,5 @@
 .inner{
-        /* border: solid 1px red;  */
+        border: solid 1px red; 
         width: 1200px; 
         margin: 0 auto; 
     }
@@ -36,6 +36,81 @@ header #gnbMenu li{display: inline-block;}
     width: 100%;
     height: 738px;
     margin: 0 auto;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     background-image: url(../img/Rectangle\ 1.png);
+}
+#section1 #intro{
+    position: absolute;
+    float: left;
+    margin-left: -278px;
+    margin-top: -95px;
+}
+#source{
+    position: relative;
+    border: solid 1px black;
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+#banner_img{
+    margin: 0 auto;
+    width: 920px;
+    height: 920px;
+    position: absolute;
+    /* border: solid 1px red; */
+    left: 470px;
+    top: -100px;
+    z-index: 10;
+}
+#source #intro{
+    position: absolute;
+    float: left;
+    margin-left: -278px;
+    margin-top: -95px;
+}
+#source #appstore{
+    position: absolute;
+    left: 185px;
+    top: 443.8px;
+}
+#source p{
+    font-size: 18px;
+    font-weight: 530;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 21px;
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 465px;
+    top: 297px;
+    color: #128D57;
+}
+#source h1{
+    position: absolute;
+    width: 380px;
+    height: 56px;
+    left: 462px;
+    top: 332px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: black;
+    /* border: solid 1px red; */
+}
+#source #h1_2{
+    position: absolute;
+    width: 176px;
+    height: 56px;
+    left: 462px;
+    top: 394px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: -0.01em;
 }
